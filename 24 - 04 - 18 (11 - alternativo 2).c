@@ -1,21 +1,18 @@
 #include <stdio.h>
 
 int main(){ // triangulo de Floyd.
+	int i, j, n, soma = 0;
 
-int i, j, n, soma = 0;
+	scanf("%d", &n);
 
-scanf("%d", &n);
-
-for (i = 1; i <= n; i++){
-
-	for (j = 1; j <= i; j++{
-		soma += 1;
-		printf("%d", soma);
-	}
+	for (i = 1; i <= n; i++){
+		for (j = 1; j <= i; j++){
+			soma += 1;
+			printf("%d", soma);
+		}
 	
-	print("\n");
-}
+		print("\n");
+	}
 
 return 0;
-
 }
