@@ -12,14 +12,11 @@ int main(){ //fatorial, com denominador somente ímpar e numerador somente par, 
     printf("Numero: ");
     scanf("%d", &N);
 
-    if(N<=0){
+    if (N<=0)
         printf("Erro!");
-    }
 
-    else{
-
+    else {
         for (denominador = 1; denominador<=(2*N - 1); denominador+=2){
-
             // calculo do fatorial do denominador
             fatorial = 1;
             for (int i = 1; i<=denominador; i++)
@@ -38,9 +35,7 @@ int main(){ //fatorial, com denominador somente ímpar e numerador somente par, 
         }
 
         printf("Resultado: %.20f\n", soma);
+    }
 
-    } // fim do else
-
-    return 0;
-
-} // fim da funcao main
+return 0;
+}
