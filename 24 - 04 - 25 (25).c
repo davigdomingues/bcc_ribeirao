@@ -30,7 +30,7 @@ int main(){
     elementos(vetor, vetorA, vetorB);
 }
 
-/*Solução do Chrstyan:
+/*Forma alternativa:
 
 void elementos(int *vetor, int *vetorA, int *vetorB){
 	int *x = vetor, *y = vetorA, *z = vetorB;
