@@ -39,7 +39,7 @@ int func_1(){
     return 0;
 }
 
-// forma alternativa (inclusive, a melhor, neste caso:
+// forma alternativa (inclusive, a melhor, neste caso):
 
 /*int main(){
     char a, b;
@@ -54,7 +54,7 @@ int func_1(){
         printf("O numero de caracteres entre eles eh: %d", diferenca - 1);
 
     else
-        printf("Meu filho, DEU ERROOOOOOOO!\n- Fabber linux , 2024");
+        printf("DEU ERROOOOOOOO!, 2024");
 
 }
 */
