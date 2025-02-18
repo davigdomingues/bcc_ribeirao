@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 void elementos(int *vetor, int *vetorA, int *vetorB){
-
     for (int j = 0; j < 30; j++){
         if (vetor[j] % 2 == 0){
             printf("%d ", *(vetor + j));
@@ -73,10 +72,10 @@ void elementos(int *vetor, int *vetorA, int *vetorB){
             *z = *x;
             z++;
         } else {
-			*y = *x;
-			y++;
+	   *y = *x;
+	   y++;
         }
-    x++;
+    	x++;
     }
 }
 
