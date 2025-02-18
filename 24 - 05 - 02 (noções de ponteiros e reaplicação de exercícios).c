@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
-//#include <zhao.h>
 
 /*int main(){
     int teste, n;
